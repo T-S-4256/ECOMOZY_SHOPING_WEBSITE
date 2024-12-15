@@ -1,0 +1,35 @@
+.spinner_container {
+  height: 90vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Product_container{
+    gap: 20px;
+    width: 70%;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+
+.home_data_not_found{
+    height: 90vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.noDataText{
+    height: 30px;
+    width: 150px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: 600;
+    text-align: center;
+    align-content: center;
+    box-shadow: 1px 1px 5px black;
+}

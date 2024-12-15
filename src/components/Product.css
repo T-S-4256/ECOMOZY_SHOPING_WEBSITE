@@ -1,0 +1,93 @@
+.product_main_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  width: 180px;
+  border: 1px solid black;
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s linear;
+  padding: 10px;
+}
+.product_main_container:hover {
+  transform: scale(1.1);
+}
+
+.product_title_container {
+  font-size: 14px;
+  font-weight: bolder;
+  height: 30px;
+  text-align: center;
+}
+
+.product_description_container {
+    height: 40px;
+  font-size: 14px;
+  text-align: center;
+  flex: 1;
+}
+
+.product_image_container {
+  height: 130px;
+  width: 110px;
+  margin: 0 auto;
+}
+.product_image {
+  height: 130px;
+  width: 110px;
+}
+
+.product_footer {
+    height: 40px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_price {
+  color: green;
+  font-weight: 600;
+  align-self: flex-end;
+}
+.product_Rbutton_container {
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.2s linear;
+  align-self: flex-end;
+}
+
+.product_Abutton_container {
+  padding: 5px;
+  font-size: 11px;
+  font-weight: bold;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 0.2s linear;
+  align-self: flex-end;
+}
+.product_main_container:hover .product_Abutton_container {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
+
+.product_main_container:hover .product_Rbutton_container {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}
